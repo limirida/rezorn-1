@@ -1,0 +1,21 @@
+<!-- init -->
+<noindex>
+{# <script>
+	window.onerror = function(msg, url, linenumber) {
+		alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
+		return true;
+	}
+</script> #}
+
+<script>
+	const webp = document.createElement('canvas').toDataURL('image/webp').indexOf('data:image/webp') == 0;
+	if (webp) document.body.classList.add('webp');
+
+	AOS.init({
+		duration: 700,
+		easing: 'ease-in-out'
+	});
+</script>
+</noindex>
+<!-- init end -->
+

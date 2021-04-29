@@ -1,0 +1,47 @@
+.reviews {
+    padding-top    : 66px;
+    background     : url(../i/reviews-bg.jpg) no-repeat center;
+    background-size: cover;
+
+    p {
+        color: #fff;
+    }
+}
+
+.reviews-wrapper {
+    max-width: 50%;
+    margin   : 0 auto;
+}
+
+.reviews__item {
+    text-align: center;
+
+    img {
+        padding-bottom: 48px;
+    }
+}
+
+.reviews-autor {
+    padding-top: 36px;
+    font-weight: 600;
+    font-size  : 18px
+}
+
+.glide__bullets {
+    padding: 0;
+}
+
+.glide__bullet--active {
+    width : 10px;
+    height: 10px;
+}
+
+.reviews-slider__btn {
+    padding-bottom: 97px;
+}
+
+
+// .reviews__wrap {
+//     max-width: 50%;
+//     margin   : 0 auto;
+// }

@@ -1,0 +1,203 @@
+.header-white__wrap {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.header-white__left,
+.header-white__right {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.address-wrap {
+    margin-top: 3px;
+}
+
+.header-logo__wrap {
+    margin-right: 86px;
+}
+
+
+.phone-wrap {
+    margin-right: 26px;
+}
+
+.header-white {
+    padding: 8px 0;
+
+    p {
+        font-weight: 600;
+        font-size  : 16px;
+    }
+
+    .gray {
+        font-weight: 400;
+    }
+
+
+}
+
+.gray {
+    color: #868686;
+}
+
+.header-gray {
+    background: #323336;
+    padding   : 10px 0;
+
+    a {
+
+        &:hover,
+        &:focus,
+        &:active {
+            text-decoration: none;
+            color          : #fff;
+            outline        : none;
+        }
+    }
+}
+
+.yellow-btn {
+    width        : 221px;
+    display      : block;
+    padding      : 15px 0;
+    border       : none;
+    background   : #FFD900;
+    border-radius: 5px;
+    font-weight  : 500;
+    font-size    : 16px;
+    text-align   : center;
+    cursor       : pointer;
+    color        : #000;
+}
+
+.phone {
+    color      : #000;
+    font-weight: 600;
+    font-size  : 18px;
+    line-height: 22px;
+    text-align : right;
+
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+        color          : #000;
+    }
+}
+
+.nav-menu li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.address {
+    position: relative;
+}
+
+.address::before {
+    content   : "";
+    width     : 23px;
+    height    : 23px;
+    position  : absolute;
+    background: url(../i/map-icon.svg) no-repeat center;
+    left      : -30px;
+    top       : -1px;
+}
+
+.nav-menu {
+    display    : flex;
+    align-items: center;
+}
+
+.nav-menu a {
+    color      : #fff;
+    font-weight: 500;
+    font-size  : 16px;
+}
+
+.search-holder {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.search-holder .circle {
+    position          : absolute;
+    width             : 100%;
+    height            : 100%;
+    clip-path         : circle(30px at 50% 50%);
+    transition        : clip-path .4s ease-in;
+    -webkit-transition: clip-path .4s ease-in;
+    z-index           : 2;
+}
+
+.search-button {
+    width              : 30px;
+    height             : 30px;
+    border-radius      : 50%;
+    cursor             : pointer;
+    background-position: center;
+    background-repeat  : no-repeat;
+    background-size    : 22px;
+    background-image   : url(../i/search-icon.svg);
+}
+
+.search-holder.active .search-button {
+    box-shadow           : none;
+    // background-image  : url(../img/search-yellow.svg);
+    background-color     : #fff;
+    transition           : background-color .2s ease;
+    -webkit-transition   : background-color .2s ease;
+    transition-delay     : .1s;
+}
+
+.search-holder .search-input {
+    background-color: transparent;
+    height          : 60px;
+    color           : #FFD900;
+    text-align      : left;
+    border          : 0;
+    box-shadow      : none;
+    outline         : none;
+    transform       : translate(0, 55px);
+    transition      : transform .4s ease;
+    font-size       : 1em;
+    padding         : 0 20px;
+    opacity         : 0;
+    visibility      : hidden;
+}
+
+.search-input::-webkit-input-placeholder {
+    color: #323336;
+}
+
+.search-holder.active .search-input {
+    visibility        : visible;
+    opacity           : 1;
+    transform         : translate(0, 0);
+    transition        : transform .4s ease, opacity .2s ease;
+    -webkit-transition: transform .4s ease, opacity .2s ease;
+    transition-delay  : .3s;
+}
+
+.form {
+    display           : flex;
+    flex-direction    : column;
+    flex-wrap         : wrap-reverse;
+    position          : relative;
+    width             : 30px;
+    height            : 30px;
+    border-radius     : 30px;
+    z-index           : 10;
+    transition        : width .4s ease, background-color .4s ease;
+    -webkit-transition: width .4s ease, background-color .4s ease;
+}
+
+.search-holder.active .form {
+    background-color  : #fff;
+    width             : 300px;
+    transition        : width .4s ease, background-color .4s ease;
+    -webkit-transition: width .4s ease, background-color .4s ease;
+}

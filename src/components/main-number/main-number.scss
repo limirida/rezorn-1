@@ -1,0 +1,31 @@
+.main-number {
+    background: url(../i/main-number-bg.jpg) no-repeat center;
+}
+.main-number__wrap {
+    max-width: 1210px;
+    margin: 0 auto;
+}
+.white-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.number-yellow {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 98px;
+    color: #FFD900;
+}
+.main-number__wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.main-number__item {
+    width: 25%;
+    padding-top: 62px;
+    flex-direction: column;
+    padding-right: 45px;
+    padding-bottom: 99px;
+}

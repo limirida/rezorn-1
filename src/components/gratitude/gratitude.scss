@@ -1,0 +1,87 @@
+.gratitude {
+    padding-top        : 147px;
+    padding-bottom     : 214px;
+    background         : url(/i/yellow-bg.png) no-repeat center;
+    background-position: 32% 0;
+}
+
+.gratitude-wrapper {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+
+}
+
+.gratitude-text {
+    background: #F8F8F8;
+    padding   : 40px 30px 68px 40px;
+    max-width : 738px;
+    min-height: 535px;
+    height    : auto;
+
+    h5 {
+        font-weight: 600;
+        font-size  : 24px;
+        line-height: 29px;
+    }
+}
+
+.gratitude-text__wrap p {
+    padding-bottom: 30px;
+}
+
+.gratitude-autor {
+    padding-top    : 18px;
+    display        : flex;
+    font-size      : 16px;
+    line-height    : 20px;
+    justify-content: space-between;
+    color          : #757575;
+}
+
+.gratitude-text__wrap {
+    height     : 350px;
+    overflow   : auto;
+    padding-top: 23px;
+}
+
+.gratitude-text__wrap::-webkit-scrollbar {
+    width        : 14px;
+    border-radius: 8px;
+    border       : 1px solid #C6C6C6;
+}
+
+.gratitude-text__wrap::-webkit-scrollbar-thumb {
+    background   : #252626;
+    border-radius: 8px;
+}
+
+.slider__btn button {
+    background: none;
+    border    : none;
+    cursor    : pointer;
+}
+
+.glide.gratitude-glide {
+    max-width: 50%;
+}
+
+.slider__bullets button {
+    background: #fff;
+
+    .glide__bullet--active .active {
+        background: #252626;
+    }
+}
+
+.gratitude-slider__button {
+    margin         : 0 auto;
+    padding-top    : 36px;
+    width          : 30%;
+    display        : flex;
+    justify-content: space-between;
+}
+
+.charter {
+    margin-left: 110px;
+}

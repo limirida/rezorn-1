@@ -1,0 +1,41 @@
+{
+  "name": "donsutki.ru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rocket Business",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/register": "^7.9.0",
+    "@glidejs/glide": "^3.4.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.0.0-alpha1",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "glightbox": "^2.0.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-error-handle": "^1.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-webp": "^5.1.0",
+    "map-stream": "0.0.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7"
+  }
+}

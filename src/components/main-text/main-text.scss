@@ -1,0 +1,23 @@
+.main-text__wrap {
+    max-width     : 1280px;
+    margin        : 0 auto;
+    padding-top   : 140px;
+    padding-bottom: 120px;
+}
+
+.main-text__wrap img {
+    padding-bottom: 42px;
+}
+
+.read-more__btn {
+    font-weight         : 600;
+    font-size           : 16px;
+    line-height         : 24px;
+    text-decoration-line: underline;
+    cursor              : pointer;
+    padding             : 17px 0;
+}
+
+.hidden {
+    display: none;
+}

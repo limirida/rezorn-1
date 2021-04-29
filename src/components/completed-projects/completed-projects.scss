@@ -1,0 +1,84 @@
+.completed-projects h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    padding-top: 65px;
+    padding-bottom: 57px;
+}
+
+.black-bg {
+    background: #252626;
+}
+
+.completed-projects {
+    color: #fff;
+}
+
+.completed-projects__item {
+    display: flex;
+    justify-content: space-between;
+    max-height: 544px;
+    height:auto;
+}
+
+.completed-projects__text {
+    background: #fff;
+    color: #252626;
+    padding: 43px 50px 62px 62px;
+    margin-left: 37px;
+
+    p {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        padding: 12px 0;
+        max-width: 50%;
+    }
+}
+
+.completed-projects__text p:not(:last-child),
+.completed-projects__text p:not(:first-child) {
+    padding-bottom: 25px;
+}
+
+.completed-projects__text p:first-child,
+.completed-projects__text p:last-child{
+    padding: 0;
+}
+
+.completed-projects__date {
+    color: #757575;
+}
+.projects-slider__btn {
+    background: none;
+    border: 0;
+}
+.projects-slider__button {
+    display: flex;
+    width: 110%;
+    justify-content: space-between;
+}
+.completed-projects__wrap {
+    position: relative;
+}
+.projects-slider__button{
+    position: absolute;
+    max-width: 1400px;
+    content: "";
+    top: 50%;
+    left: -60px;
+    button{
+        cursor: pointer;
+    }
+}
+.projects-glide {
+    padding-bottom: 45px;
+}
+.main-wokr__btn.projects-slider__btn{
+    padding-bottom: 80px;
+}

@@ -1,0 +1,51 @@
+.services-wrap {
+    width: 38%;
+    margin: 0 auto;
+    padding-top: 96px;
+}
+.services-wrap h2 {
+    font-weight: bold;
+font-size: 36px;
+padding-bottom: 27px;
+}
+
+.services-price {
+    color: #757575;
+    width: 50%;
+    text-align: right;
+}
+
+.services-name {
+    position: relative;
+    text-decoration-line: underline;
+    width: 63%;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.services-name:before {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #000;
+    border-radius: 50%;
+    left: -16px;
+    top: 7px;
+}
+.services-wrapper {
+    padding-bottom: 80px;
+    line-height: 22px;
+    td {
+        line-height: 22px;
+        padding-bottom: 28px;
+        font-size: 18px;
+    }
+    td:last-child {
+        padding-bottom: 0;
+    }
+}
+
+.services {
+    background: url(../i/services__bg.png)  #F3F3F3 no-repeat right;
+}
